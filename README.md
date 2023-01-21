@@ -1,2 +1,2 @@
-# projeto-mongodb
-Projeto didático com mongoDB
+# Projeto Pessoal Javascript
+### usando Reactjs e Firebase cloud
