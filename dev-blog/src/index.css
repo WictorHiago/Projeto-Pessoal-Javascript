@@ -36,6 +36,7 @@ nav button:hover {
 /* Form styles */
 form {
    max-width: 40%;
+   margin: 0 auto;
 }
 
 label {
@@ -105,7 +106,7 @@ button[disabled] {
 
 .container .error {
    color: #e41b00;
-   background-color: #e8e8e8;
+   background-color: #e3b0b0;
    border: 1px solid #f0b3b3;
    padding: 5px;
    border-radius: 5px;
