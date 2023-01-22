@@ -17,8 +17,7 @@ textarea:focus {
 
 /* Links, buttons */
 a,
-nav,
-button {
+nav button {
    text-decoration: none;
    background-color: transparent;
    border: none;
@@ -28,3 +27,5 @@ button {
    cursor: pointer;
    font-family: 'Montserrat', 'sans-serif';
 }
+
+/* Form styles */

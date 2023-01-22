@@ -8,6 +8,8 @@ import About from './pages/About';
 /* COMPONENTS */
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Register from './pages/Register/Register';
+import Login from './pages/Login/Login';
 function App() {
    return (
       <div className="App">
@@ -17,6 +19,8 @@ function App() {
                <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/about" element={<About />} />
+                  <Route path="/register" element={<Register />} />
+                  <Route path="/login" element={<Login />} />
                </Routes>
             </div>
             <Footer />
