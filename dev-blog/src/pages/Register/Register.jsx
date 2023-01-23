@@ -42,7 +42,7 @@ const Register = () => {
    }, [authError]);
    return (
       <div className={styles.register}>
-         <h1>Cadastr-se para postar</h1>
+         <h1>Cadastre-se para postar</h1>
          <p>Crie seu usuário e compartilhe suas histórias</p>
          <form onSubmit={handleSubmit}>
             <label htmlFor="">
@@ -89,14 +89,12 @@ const Register = () => {
                   onChange={(e) => setConfirmPassword(e.target.value)}
                />
             </label>
-            {!loading && <button className="btn">Entrar</button>}
+            {!loading && <button className="btn">Cadastrar</button>}
             {loading && (
-               <button className="btn" diasabled>
+               <button className="btn" disabled>
                   Aguarde...
                </button>
             )}
-            <button className="btn">Cadastrar</button>
-
             {error && <p className="error">{error}</p>}
          </form>
       </div>

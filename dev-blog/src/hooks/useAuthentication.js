@@ -39,6 +39,7 @@ export const useAuthentication = () => {
             displayName: data.displayName,
          });
 
+         setLoading(false);
          return user;
       } catch (error) {
          console.log(error.message);
@@ -54,10 +55,9 @@ export const useAuthentication = () => {
             systemErrorMessage = 'Ocorreu um erro, por favor tente mais tarde';
          }
 
+         setLoading(false);
          setError(systemErrorMessage);
       }
-
-      setLoading(false);
    };
 
    useEffect(() => {
