@@ -10,11 +10,11 @@ import config from '../firebase';
 const firebaseConfig = {
    apiKey: config.API_KEY,
    authDomain: config.AUTH_DOMAIN,
-   projectId: 'devblog-16ed9',
+   projectId: 'devblog-7ead3',
    storageBucket: config.STORAGE_BUCKET,
-   messagingSenderId: '211429885323',
-   appId: '1:211429885323:web:5896714c443d8398b19b8e',
-   measurementId: 'G-RGSF0CHM6W',
+   messagingSenderId: '202968159058',
+   appId: '1:202968159058:web:970ae8f655ca31cdc6a08b',
+   measurementId: 'G-2424H2TXC2',
 };
 
 // Initialize Firebase
